@@ -67,5 +67,11 @@ h3 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+span {
+  padding-bottom: 0px;
+  border-bottom: 0.5rem solid #3284FF;
 }/*# sourceMappingURL=index.css.map */
