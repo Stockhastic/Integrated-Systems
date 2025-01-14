@@ -1,1 +1,22 @@
 @import './base';
+@import './components';
+
+.vertical-line{ 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 60px;
+    height: 100vh;
+    background-color: $grey;
+    z-index: 9999;
+}
+
+main {
+    margin: 0 auto;
+    width: 1150px;
+    // outline: 1px solid red;
+}
+
+.bolder {
+    font-weight: 900;
+}

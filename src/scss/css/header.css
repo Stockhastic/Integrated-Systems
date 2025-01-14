@@ -1,0 +1,17 @@
+header {
+  position: relative;
+  height: 175px;
+}
+header > img {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.black-block {
+  position: absolute;
+  background-color: black;
+  height: 175px;
+  width: 60%;
+  right: 0;
+}/*# sourceMappingURL=header.css.map */

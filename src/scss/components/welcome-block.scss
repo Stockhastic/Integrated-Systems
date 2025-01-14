@@ -1,0 +1,16 @@
+.welcome-block {
+    // outline: 1px solid greenyellow;
+    margin-top: 60px;
+
+    &__title {
+        margin: 2rem 0;
+    }
+    
+    &__header {
+        margin: 2rem 0;
+    }
+
+    &__description {
+        margin: 1rem 0;
+    }
+}

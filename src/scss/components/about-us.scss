@@ -1,0 +1,43 @@
+.about-us {
+    // outline: 1px solid pink;
+
+    &__flex{
+        display: flex;
+        // flex-direction: column;
+        margin-top: 2rem;
+    }
+    &__flexRight{
+        margin-left: 2rem;
+    }
+
+    
+    &__hello {
+        font-size: 20px;
+        margin: 2rem 0 1rem;
+        text-align: end;
+    }
+
+    &__title {
+        margin: 1rem 0;
+        text-align: end;
+        padding-right: 5px;
+    }
+
+    &__name {
+        margin: 1rem 0;
+        font-size: $aboutUsNameSize;
+        text-align: end;
+    }
+
+    &__position {
+        font-weight: 900;
+        margin: 3px 0;
+        font-size: $aboutUsPositionSize;
+        text-align: end;
+    }
+
+    &__text {
+        text-align: end;
+        margin: 1rem 0;
+    }
+}

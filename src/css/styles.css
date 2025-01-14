@@ -6,7 +6,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 10px;
   font: inherit;
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
@@ -44,6 +44,10 @@ input {
   border-radius: 0;
 }
 
+.divider {
+  height: 20px;
+}
+
 h1, h2, h3, p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -71,7 +75,85 @@ p {
   font-weight: 200;
 }
 
-span {
-  padding-bottom: 0px;
-  border-bottom: 0.5rem solid #3284FF;
+header {
+  position: relative;
+  height: 175px;
+}
+header > img {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.black-block {
+  position: absolute;
+  background-color: black;
+  height: 175px;
+  width: 60%;
+  right: 0;
+}
+
+.welcome-block {
+  margin-top: 60px;
+}
+.welcome-block__title {
+  margin: 2rem 0;
+}
+.welcome-block__header {
+  margin: 2rem 0;
+}
+.welcome-block__description {
+  margin: 1rem 0;
+}
+
+.about-us__flex {
+  display: flex;
+  margin-top: 2rem;
+}
+.about-us__flexRight {
+  margin-left: 2rem;
+}
+.about-us__hello {
+  font-size: 20px;
+  margin: 2rem 0 1rem;
+  text-align: end;
+}
+.about-us__title {
+  margin: 1rem 0;
+  text-align: end;
+  padding-right: 5px;
+}
+.about-us__name {
+  margin: 1rem 0;
+  font-size: 24px;
+  text-align: end;
+}
+.about-us__position {
+  font-weight: 900;
+  margin: 3px 0;
+  font-size: 15px;
+  text-align: end;
+}
+.about-us__text {
+  text-align: end;
+  margin: 1rem 0;
+}
+
+.vertical-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100vh;
+  background-color: #2e2e2e;
+  z-index: 9999;
+}
+
+main {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.bolder {
+  font-weight: 900;
 }/*# sourceMappingURL=styles.css.map */
