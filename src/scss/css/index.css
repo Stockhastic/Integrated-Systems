@@ -81,4 +81,13 @@ h3 {
 p {
   font-size: 17px;
   font-weight: 200;
+}
+
+@keyframes greyBlockSlide {
+  50% {
+    transform: translate(-100%, 100%);
+  }
+  100% {
+    transform: translate(-160%, 100%);
+  }
 }/*# sourceMappingURL=index.css.map */

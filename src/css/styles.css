@@ -83,6 +83,14 @@ p {
   font-weight: 200;
 }
 
+@keyframes greyBlockSlide {
+  50% {
+    transform: translate(-100%, 100%);
+  }
+  100% {
+    transform: translate(-160%, 100%);
+  }
+}
 header {
   position: relative;
   height: 175px;
@@ -99,6 +107,18 @@ header > img {
   height: 175px;
   width: 60%;
   right: 0;
+}
+
+.grey-block {
+  position: absolute;
+  right: 0;
+  background-color: #2e2e2e;
+  width: 20%;
+  height: 175px;
+  transform: translateY(100%);
+}
+.grey-block:hover {
+  animation: greyBlockSlide 1.3s forwards;
 }
 
 .welcome-block {
@@ -160,6 +180,7 @@ header > img {
 main {
   margin: 0 auto;
   width: 1150px;
+  outline: 1px solid red;
 }
 
 .bolder {
