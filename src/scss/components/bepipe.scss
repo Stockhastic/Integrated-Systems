@@ -1,0 +1,44 @@
+.bepipe {
+
+    &__title{
+        margin:auto;
+    }
+
+    &__main{
+        position: relative;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        outline: 1px solid #f0f;
+    }
+
+    &__flexLeft {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        outline: 1px solid #f00;
+        width: 490px;
+
+        & > p {
+            text-align: end;
+        }
+        
+    }
+
+    &__flexRight {
+        width: 465px;
+        outline: 1px solid #0f0;
+    }
+
+    &__flexImgText {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // padding: 0 5px;
+    }
+
+    &__reactivePower {
+        padding-left:10px;
+    }
+}

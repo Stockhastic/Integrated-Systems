@@ -1,0 +1,10 @@
+.roadmap {
+    position: relative;
+    &__title{
+        text-align: end;
+    }
+    &__image{
+        max-width: 95%;
+        outline: 1px solid red;
+    }
+}

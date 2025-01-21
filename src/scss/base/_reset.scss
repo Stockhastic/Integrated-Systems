@@ -44,7 +44,17 @@
     // -webkit-appearance: none;
     border-radius: 0;
   }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   
   .divider{
-    height: 20px;
+    height: 100px;
+  }
+
+  .divider_2{
+    height: 30px;
   }
