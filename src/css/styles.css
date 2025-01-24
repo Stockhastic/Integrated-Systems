@@ -62,6 +62,10 @@ a {
   font-family: "ParagraphFont";
   src: url(/src/fonts/Ubuntu-Regular.ttf);
 }
+@font-face {
+  font-family: "Special";
+  src: url(/src/fonts/Tomorrow-Regular.ttf);
+}
 h1, h2, h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -115,7 +119,8 @@ header > img {
   position: absolute;
   background-color: black;
   height: 175px;
-  width: 60%;
+  max-width: 60%;
+  min-width: 30%;
   right: 0;
 }
 
@@ -126,9 +131,6 @@ header > img {
   width: 20%;
   height: 175px;
   transform: translateY(100%);
-}
-.grey-block:hover {
-  animation: greyBlockSlide 1.3s forwards;
 }
 
 .welcome-block {
@@ -184,8 +186,11 @@ header > img {
   text-align: end;
 }
 .roadmap__image {
-  max-width: 95%;
-  outline: 1px solid red;
+  transform: translateX(-5%);
+  max-width: 100%;
+}
+.roadmap__legend {
+  position: absolute;
 }
 
 .projects__title {
@@ -201,23 +206,20 @@ header > img {
   position: relative;
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
-  outline: 1px solid #f0f;
+  justify-content: space-between;
 }
 .bepipe__flexLeft {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
-  outline: 1px solid #f00;
-  width: 490px;
+  width: 520px;
 }
 .bepipe__flexLeft > p {
   text-align: end;
 }
 .bepipe__flexRight {
-  width: 465px;
-  outline: 1px solid #0f0;
+  width: 520px;
 }
 .bepipe__flexImgText {
   display: flex;
@@ -226,6 +228,12 @@ header > img {
 }
 .bepipe__reactivePower {
   padding-left: 10px;
+}
+.bepipe__installedSystemTxt {
+  font-weight: 900;
+}
+.bepipe__champagneTxt {
+  font-weight: 900;
 }
 
 .vertical-line {
@@ -272,10 +280,13 @@ footer {
 
 .phone-link::before {
   content: url("/src/graphics/footer_phone.png");
+  padding: 5px;
+  top: 50;
 }
 
 .mail-link::before {
   content: url("/src/graphics/footer_mail.png");
+  padding: 5px;
 }
 
 .smaller-field {
@@ -283,4 +294,14 @@ footer {
 }
 .smaller-field > p {
   text-align: end;
+}
+
+.specialH1 {
+  font-size: 128px;
+  font-family: "Special";
+}
+
+.specialH2 {
+  font-size: 48px;
+  font-family: "Special";
 }/*# sourceMappingURL=styles.css.map */

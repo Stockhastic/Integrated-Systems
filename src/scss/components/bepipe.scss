@@ -8,8 +8,8 @@
         position: relative;
         display: flex;
         flex-flow: row;
-        justify-content: space-around;
-        outline: 1px solid #f0f;
+        justify-content: space-between;
+        // outline: 1px solid #f0f;
     }
 
     &__flexLeft {
@@ -17,8 +17,8 @@
         justify-content: center;
         align-items: flex-end;
         flex-direction: column;
-        outline: 1px solid #f00;
-        width: 490px;
+        // outline: 1px solid #f00;
+        width: 520px;
 
         & > p {
             text-align: end;
@@ -27,8 +27,8 @@
     }
 
     &__flexRight {
-        width: 465px;
-        outline: 1px solid #0f0;
+        width: 520px;
+        // outline: 1px solid #0f0;
     }
 
     &__flexImgText {
@@ -40,5 +40,13 @@
 
     &__reactivePower {
         padding-left:10px;
+    }
+
+    &__installedSystemTxt{
+        font-weight: 900;
+    }
+    &__champagneTxt{
+        font-weight: 900;
+        // text-align: end;
     }
 }

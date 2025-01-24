@@ -47,10 +47,13 @@ footer {
 
 .phone-link::before {
     content: url('/src/graphics/footer_phone.png');
+    padding: 5px;
+    top: 50;
 }
 
 .mail-link::before {
-    content: url('/src/graphics/footer_mail.png')
+    content: url('/src/graphics/footer_mail.png');
+    padding: 5px;
 }
 
 .smaller-field {
@@ -59,4 +62,13 @@ footer {
     & >p {
         text-align: end;
     }
+}
+
+.specialH1 {
+    font-size: 128px;
+    font-family: "Special";
+}
+.specialH2 {
+    font-size: 48px;
+    font-family: "Special";
 }

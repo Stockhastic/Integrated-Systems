@@ -5,23 +5,20 @@
   position: relative;
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
-  outline: 1px solid #f0f;
+  justify-content: space-between;
 }
 .bepipe__flexLeft {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
-  outline: 1px solid #f00;
-  width: 490px;
+  width: 520px;
 }
 .bepipe__flexLeft > p {
   text-align: end;
 }
 .bepipe__flexRight {
-  width: 465px;
-  outline: 1px solid #0f0;
+  width: 520px;
 }
 .bepipe__flexImgText {
   display: flex;
@@ -30,4 +27,10 @@
 }
 .bepipe__reactivePower {
   padding-left: 10px;
+}
+.bepipe__installedSystemTxt {
+  font-weight: 900;
+}
+.bepipe__champagneTxt {
+  font-weight: 900;
 }/*# sourceMappingURL=bepipe.css.map */

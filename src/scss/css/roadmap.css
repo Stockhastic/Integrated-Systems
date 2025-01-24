@@ -5,6 +5,9 @@
   text-align: end;
 }
 .roadmap__image {
-  max-width: 95%;
-  outline: 1px solid red;
+  transform: translateX(-5%);
+  max-width: 100%;
+}
+.roadmap__legend {
+  position: absolute;
 }/*# sourceMappingURL=roadmap.css.map */

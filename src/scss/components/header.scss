@@ -14,7 +14,8 @@ header {
     position: absolute;
     background-color: black;
     height: 175px;
-    width: 60%;
+    max-width: 60%;
+    min-width: 30%;
     right: 0;
 }
 
@@ -26,7 +27,7 @@ header {
     height: 175px;
     transform:translateY(100%);
 
-    &:hover{
-        animation: greyBlockSlide 1.3s forwards;
-    }
+    // &:hover{
+    //     animation: greyBlockSlide 1.3s forwards;
+    // }
 }

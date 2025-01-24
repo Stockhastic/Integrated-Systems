@@ -62,6 +62,10 @@ a {
   font-family: "ParagraphFont";
   src: url(/src/fonts/Ubuntu-Regular.ttf);
 }
+@font-face {
+  font-family: "Special";
+  src: url(/src/fonts/Tomorrow-Regular.ttf);
+}
 h1, h2, h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
