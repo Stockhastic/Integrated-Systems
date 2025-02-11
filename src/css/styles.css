@@ -60,7 +60,7 @@ a {
 
 @font-face {
   font-family: "ParagraphFont";
-  src: url(/src/fonts/Ubuntu-Regular.ttf);
+  src: url("../fonts/Ubuntu-Regular.ttf");
 }
 @font-face {
   font-family: "Special";
@@ -71,7 +71,7 @@ h1, h2, h3 {
 }
 
 p {
-  font-family: "Trebuchet MS";
+  font-family: "ParagraphFont";
 }
 
 h1 {
