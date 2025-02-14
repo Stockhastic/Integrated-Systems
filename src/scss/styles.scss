@@ -9,6 +9,8 @@
     height: 100vh;
     background-color: $grey;
     z-index: 9999;
+
+    cursor: url("/src/graphics/icons8-select-cursor-96_white.png"), auto;
 }
 
 main {
@@ -71,4 +73,16 @@ footer {
 .specialH2 {
     font-size: 48px;
     font-family: "Special";
+}
+
+//Uniq mouse img + coloring
+
+//img
+body {
+    cursor: url("/src/graphics/icons8-select-cursor-96.png"), auto;
+}
+
+//coloring
+footer, .black-block, .grey-block {
+    cursor: url("/src/graphics/icons8-select-cursor-96_white.png"), auto;
 }
