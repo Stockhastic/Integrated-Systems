@@ -60,7 +60,7 @@ a {
 
 @font-face {
   font-family: "ParagraphFont";
-  src: url("../fonts/Ubuntu-Regular.ttf");
+  src: url("../fonts/SpaceGrotesk-Regular.ttf");
 }
 @font-face {
   font-family: "Special";
@@ -123,6 +123,18 @@ p {
 }
 
 .visible-2 {
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.4s;
+}
+
+.hidden-3 {
+  opacity: 0;
+  transform: translateX(-70px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible-3 {
   opacity: 1;
   transform: translateX(0);
   transition-delay: 0.4s;

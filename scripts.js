@@ -5,6 +5,7 @@
 
 const elements = document.querySelectorAll('.hidden');
 const elements2 = document.querySelectorAll('.hidden-2');
+const elements3 = document.querySelectorAll('.hidden-3');
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -31,3 +32,17 @@ const observer2 = new IntersectionObserver((entries) => {
 { threshold: 0.2 });
 
 elements2.forEach(el => observer2.observe(el));
+
+const observer3 = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+            entry.target.classList.add('visible-3');
+            observer3.unobserve(entry.target);
+        }, index * 200);
+        }
+    });
+},
+{ threshold: 0.2 });
+
+elements3.forEach(el => observer3.observe(el));
