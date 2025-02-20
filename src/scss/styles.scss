@@ -69,13 +69,19 @@ footer {
 .specialH1 {
     font-size: 128px;
     font-family: "Special";
+    text-decoration: underline 8px rgb(77, 133, 255);
 }
 .specialH2 {
     font-size: 48px;
     font-family: "Special";
+    text-decoration: underline 6px rgb(77, 133, 255);
 }
 
 //Uniq mouse img + coloring
+
+* {
+    scroll-behavior: smooth;
+}
 
 //img
 body {

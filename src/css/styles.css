@@ -157,6 +157,18 @@ header > img {
   max-width: 60%;
   min-width: 30%;
   right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.black-block > a {
+  transition: 0.17s;
+  transition-timing-function: cubic-bezier(0.26, 0.11, 0.25, 1);
+  height: 30px;
+}
+.black-block > a:hover {
+  transform: translateY(-5px);
+  text-shadow: 1px 1px 20px #fff;
 }
 
 .grey-block {
@@ -341,11 +353,17 @@ footer {
 .specialH1 {
   font-size: 128px;
   font-family: "Special";
+  text-decoration: underline 8px rgb(77, 133, 255);
 }
 
 .specialH2 {
   font-size: 48px;
   font-family: "Special";
+  text-decoration: underline 6px rgb(77, 133, 255);
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
