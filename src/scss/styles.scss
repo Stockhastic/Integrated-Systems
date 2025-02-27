@@ -10,7 +10,7 @@
     background-color: $grey;
     z-index: 9999;
 
-    cursor: url("/src/graphics/icons8-select-cursor-96_white.png"), auto;
+    cursor: url("../graphics/icons8-select-cursor-96_white.png"), auto;
 }
 
 main {
@@ -48,13 +48,13 @@ footer {
 }
 
 .phone-link::before {
-    content: url('/src/graphics/footer_phone.png');
+    content: url('../graphics/footer_phone.png');
     padding: 5px;
     top: 50;
 }
 
 .mail-link::before {
-    content: url('/src/graphics/footer_mail.png');
+    content: url('../src/graphics/footer_mail.png');
     padding: 5px;
 }
 
