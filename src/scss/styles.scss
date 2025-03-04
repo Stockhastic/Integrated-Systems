@@ -264,7 +264,64 @@ footer, .black-block, .grey-block {
 }
 
 @media ($mobile) {
-    img {
-        display: none;
+    header {
+    width: $tabletWidthPercent;
+    margin: 0 auto;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .about-us {
+        &__photo {
+            width: 100%;
+        }
+    }
+
+    .header-logo {
+        display: flex;
+        width: 90%;
+    }
+
+    .welcome-block {
+        height: 350px;
+    }
+
+    .divider {
+        height: 10px
+    }
+
+    .projects__title {
+        margin: 1rem auto;
+        font-size: 40px;
+    }
+
+    .bepipe {
+        &__title {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        &__schemeImage {
+            width: 90%;
+        }
+
+        &__installedSystemTxt {
+            margin-bottom: 2rem;
+        }
+        
+        &__installedSysteImg {
+            width: 90%;
+        }
+
+        &__champagnePhoto {
+            width: 100%;
+        }
+    }
+
+    #MPF {
+        font-size: 30px;
+        letter-spacing: 0.1px;
     }
 }
