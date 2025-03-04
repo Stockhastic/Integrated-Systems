@@ -522,4 +522,9 @@ footer, .black-block, .grey-block {
   .footerLogo {
     display: none;
   }
+}
+@media (max-width: 786px) {
+  img {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

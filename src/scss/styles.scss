@@ -262,3 +262,9 @@ footer, .black-block, .grey-block {
         display: none;
     }
 }
+
+@media ($mobile) {
+    img {
+        display: none;
+    }
+}
