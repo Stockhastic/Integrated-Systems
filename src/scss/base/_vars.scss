@@ -9,9 +9,10 @@ $white: #fff;
 $grey: #2e2e2e;
 
 // Screens
-$mobile: "min-width: 375px"; 
-$tablet: "min-width: 768px";
-$desktop: "min-width: 1024px";
+$mobile: "min-width: 786px"; 
+$tablet: "max-width: 1024px";
+$tabletWidthPercent: 95%;
+// $desktop: "max-width: 1024px";
 
 // Sizes
 $aboutUsNameSize: 24px;

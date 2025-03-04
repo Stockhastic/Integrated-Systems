@@ -92,3 +92,172 @@ body {
 footer, .black-block, .grey-block {
     cursor: url("/src/graphics/icons8-select-cursor-96_white.png"), auto;
 }
+
+
+@media ($tablet) {
+    main {
+        width: 100%;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+    .grey-block {
+        display: none;
+    }
+    .header-logo {
+        width: 50%;
+        top: 40px;
+        left: 30px;
+    }
+
+    .welcome-block {
+        width: $tabletWidthPercent;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .about-us { 
+        width: $tabletWidthPercent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        // outline: 1px solid pink;
+
+        &__photo {
+            // width: 100%;
+            height: 700px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+        &__flex {
+            flex-direction: column-reverse;
+        }
+        &__flexRight {
+            margin: 0 auto
+        }
+        &__hello, &__title, &__name, &__position, &__text {
+            text-align: center;
+        }
+    }
+
+    .roadmap {
+        width: $tabletWidthPercent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        &__image{
+            position: relative;
+            transform: translateX(0);
+        }
+
+        &__legend {
+            position: relative;
+        }
+    }
+
+    .bepipe {
+        margin: 0 auto;
+        width: $tabletWidthPercent;
+        &__main {
+            flex-flow: column wrap;
+        }
+        &__installedSysteImg {
+            width: 100%;
+        }
+        &__champagnePhoto {
+            width: 100%;
+        }
+        &__flexLeft {
+            margin: 0 auto;
+            width: 100%;
+            align-items: center;
+
+            & > p {
+                text-align: center;
+            }
+        }
+        &__flexRight {
+            margin: 0 auto;
+            width: 100%;
+            align-items: center;
+
+            & > p {
+                text-align: center;
+            }
+
+            & > #h {
+                display: none;
+            }
+        }
+        
+        &__flexImgText {
+            flex-direction: column;
+        }
+
+        &__simpleInstallation {
+            display: flex;
+            margin: 0 auto;
+            height: 100px;
+        }
+
+        &__schemeImage {
+            display: flex;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        &__installedSysteImg {
+            width: 70%;
+            margin-bottom: 1rem;
+        }
+
+        &__champagnePhoto {
+            display: flex;
+            margin: 0 auto;
+            width: 70%;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .reductionOfCO2Emission {
+        display: flex;
+        margin: 2rem auto;
+    }
+
+    .reductionofenerg {
+        margin: 1rem auto;
+    }
+
+    .smaller-field {
+        width: 100%;
+    }
+
+    .divider_2 {
+        height: 25px;
+    }
+
+    .specialH1, .specialH2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+
+    footer {
+        width: 100%;
+    }
+
+    .footerLogo {
+        display: none;
+    }
+}
