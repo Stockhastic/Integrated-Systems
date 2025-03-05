@@ -77,6 +77,10 @@ footer {
     text-decoration: underline 6px rgb(77, 133, 255);
 }
 
+.roadmapMobile {
+    display: none;
+}
+
 //Uniq mouse img + coloring
 
 * {
@@ -265,8 +269,10 @@ footer, .black-block, .grey-block {
 
 @media ($mobile) {
     header {
-    width: $tabletWidthPercent;
-    margin: 0 auto;
+        width: $tabletWidthPercent;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
 
     body {
@@ -276,16 +282,17 @@ footer, .black-block, .grey-block {
     .about-us {
         &__photo {
             width: 100%;
+            margin: 0 auto;
         }
     }
 
     .header-logo {
-        display: flex;
-        width: 90%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .welcome-block {
-        height: 350px;
+        width: 90%;
     }
 
     .divider {
@@ -294,12 +301,12 @@ footer, .black-block, .grey-block {
 
     .projects__title {
         margin: 1rem auto;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .bepipe {
         &__title {
-            width: 100%;
+            width: 80%;
             margin-bottom: 2rem;
         }
 
@@ -318,10 +325,52 @@ footer, .black-block, .grey-block {
         &__champagnePhoto {
             width: 100%;
         }
+
+        &__simpleInstallation {
+            width: 60%;
+        }
     }
 
     #MPF {
         font-size: 30px;
         letter-spacing: 0.1px;
+    }
+
+    .reductionOfCO2Emission {
+        width: 80%;
+    }
+
+    .specialH1 {
+        font-size: 90px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footerRightBlock {
+        margin: 0 auto;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        & > a {
+            font-size: 16px;
+        }
+    }
+
+    .roadmap {
+        display: none;
+    }
+
+    .roadmapMobile {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+
+        &__title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
     }
 }
