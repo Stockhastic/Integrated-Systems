@@ -1,0 +1,36 @@
+.bepipe__title {
+  margin: auto;
+}
+.bepipe__main {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.bepipe__flexLeft {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 520px;
+}
+.bepipe__flexLeft > p {
+  text-align: end;
+}
+.bepipe__flexRight {
+  width: 520px;
+}
+.bepipe__flexImgText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bepipe__reactivePower {
+  padding-left: 10px;
+}
+.bepipe__installedSystemTxt {
+  font-weight: 900;
+}
+.bepipe__champagneTxt {
+  font-weight: 900;
+}/*# sourceMappingURL=bepipe.css.map */
